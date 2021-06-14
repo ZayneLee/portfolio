@@ -1,0 +1,30 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+/*reset*/
+* {margin: 0; padding: 0;}
+li{list-style: none;}
+a {color: inherit; text-decoration: none;}
+
+
+/* layout */
+body {font-family: 'Jua', sans-serif; font-size: 16px; color: #333; line-height: 1.25;}
+header {width: 100%; height: 90px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); position: relative;}
+.innerHeader .util ul { width: 218px; height: 100%; float: left;
+line-height: 90px; margin-left: 2%;}
+.innerHeader .util ul li {float: left; padding: 0 15px;}
+.innerHeader .util ul li:nth-child(2) {margin-top: 2px;}
+.innerHeader .logo {line-height: 90px; position: absolute; left: 50%; transform: translateX(-50%)}
+
+/* section.main*/
+.main {width: 100%; heigh: auto; background-image: url(../img/Code.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; }
+.main .inner {width: 1400px; height: 800px; margin: 0 auto; position: relative; font-size: 50px; color: white;}
+.main .inner .mainTitle {width: 653px; height: auto; position: absolute; top: 50%; text-align: center; line-height: 1.3;}
+
+/* section.aboutme */
+.aboutme {width: 1400px; margin: 0 auto; margin-top: 100px; color: #333;}
+.aboutme .photo {text-align: center;}
+.aboutme h2 {text-align: center; font-size: 40px; font-weight: bold; margin-bottom: 50px;}
+.aboutme ul {width: 100%; height: auto; margin: 0 auto;  overflow: hidden;}
+.aboutme ul li {float: left; width: 32.2%; margin-right: 1.7%; margin-bottom: 10px; text-align: center;}
+.aboutme ul li:nth-child(3) {margin-right: 0;}
